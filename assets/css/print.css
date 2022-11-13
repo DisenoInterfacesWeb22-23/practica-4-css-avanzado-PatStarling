@@ -1,0 +1,5 @@
+@media print {
+  header, footer, nav, aside, #nav1, #nav2 {
+    display: none;
+  }
+}

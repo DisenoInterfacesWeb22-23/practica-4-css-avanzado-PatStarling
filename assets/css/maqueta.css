@@ -1,0 +1,143 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  max-width: 1440px;
+  margin: 0 auto;
+}
+
+p {
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  color: #000;
+}
+
+#cabecera {
+  background-color: #4388cd;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+  border: 3px solid #112a63;
+}
+
+#menu {
+  background-color: #4388cd;
+  border: 3px solid #003d8d;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#contenido {
+  width: 80%;
+  float: left;
+}
+
+#contenido #nav1 {
+  background-color: #4388cd;
+  border: 3px solid #112a63;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+#contenido #nav2 {
+  background-color: #4388cd;
+  border: 3px solid #112a63;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  width: 30%;
+  float: left;
+  min-height: 350px;
+}
+
+#contenido #cuerpo {
+  background-color: #4388cd;
+  border: 3px solid #003d8d;
+  padding: 20px;
+  margin-bottom: 20px 0px;
+  width: 64%;
+  float: right;
+  min-height: 350px;
+  margin-right: -6px;
+}
+
+#banner {
+  background-color: #4388cd;
+  border: 3px solid #003d8d;
+  padding: 20px 0px;
+  margin-bottom: 20px;
+  width: 21%;
+  min-height: 472px;
+  float: right;
+  margin-right: -44px;
+}
+
+#pie {
+  clear: both;
+  background-color: #4388cd;
+  border: 3px solid #112a63;
+  padding: 20px;
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+img {
+  max-width: 100px;
+  max-height: 100px;
+}
+
+/*Vista para Tablet*/
+@media (min-width: 482px) and (max-width: 1024px) {
+  #contenido {
+    width: 100%;
+    float: initial;
+    clear: both;
+  }
+  #contenido #nav2 {
+    width: 30%;
+    float: left;
+    min-height: 200px;
+  }
+  #contenido #cuerpo {
+    width: 59%;
+    float: right;
+    min-height: 200px;
+    margin-right: 0;
+  }
+  #banner {
+    clear: both;
+    width: 100%;
+    min-height: 0px;
+    float: none;
+    margin-right: none;
+  }
+}
+
+/*Vista para Movil*/
+@media screen and (max-width: 481px) {
+  #contenido {
+    width: 100%;
+    clear: both;
+  }
+  #contenido #nav2 {
+    width: 100%;
+    min-height: 0px;
+    clear: both;
+  }
+  #contenido #cuerpo {
+    width: 100%;
+    min-height: 0px;
+    margin-right: 0px;
+    clear: both;
+    margin-bottom: 20px;
+  }
+  #banner {
+    clear: both;
+    width: 100%;
+    min-height: 0px;
+    float: none;
+    margin-right: 0px;
+  }
+}

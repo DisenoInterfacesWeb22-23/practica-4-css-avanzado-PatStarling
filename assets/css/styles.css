@@ -1,0 +1,465 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+body {
+  margin: 0px;
+  padding: 0px;
+  font-size: 1em;
+  background-color: #fff;
+  font-family: "Montserrat", sans-serif;
+  color: #333333;
+}
+
+.contenido-centrado {
+  max-width: 1350px;
+  margin: 0 auto;
+}
+
+#cabecera {
+  background-color: #fff;
+  z-index: 9999999;
+  position: relative;
+  position: fixed;
+  width: 100%;
+  box-shadow: 0px 8px 10px 0px #383737;
+}
+
+.cabecerra-arriba {
+  height: 100px;
+}
+
+.cabecerra-arriba .izq {
+  width: 30%;
+  float: left;
+}
+
+.cabecerra-arriba .der {
+  width: 70%;
+  float: right;
+  position: relative;
+}
+
+.cabecerra-arriba #idiomas {
+  position: absolute;
+  right: 388px;
+  top: 14px;
+}
+
+.cabecerra-arriba #idiomas ul {
+  list-style: none;
+}
+
+.cabecerra-arriba #idiomas ul li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+.cabecerra-arriba #idiomas ul li a {
+  text-decoration: none;
+  color: #107DB7;
+}
+
+.cabecerra-arriba #iconos-cabecera {
+  position: absolute;
+  right: 266px;
+  top: 1px;
+}
+
+.cabecerra-arriba #iconos-cabecera ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+  margin-top: 20px;
+}
+
+.cabecerra-arriba #iconos-cabecera ul li {
+  display: inline;
+  padding: 0px 8px;
+}
+
+.cabecerra-arriba #iconos-cabecera ul li a {
+  text-decoration: none;
+  color: #107DB7;
+}
+
+.cabecerra-arriba #iconos-cabecera ul li a i {
+  font-size: 1.5em;
+  padding-top: 8px;
+}
+
+.cabecerra-arriba #iconos-cabecera ul li a:visited {
+  color: #107DB7;
+}
+
+.cabecerra-arriba #buscador {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+.cabecerra-arriba #buscador input {
+  float: left;
+  padding: 5px;
+  border-radius: 5px 0px 0px 5px;
+  border: none;
+  border-top: 1px solid #107DB7;
+  border-bottom: 1px solid #107DB7;
+  border-left: 1px solid #107DB7;
+}
+
+.cabecerra-arriba #buscador button {
+  background-color: #107DB7;
+  border: none;
+  color: #fff;
+  padding: 6.5px 20px;
+  border-radius: 0px 5px 5px 0px;
+  cursor: pointer;
+}
+
+#menu_cabecera {
+  clear: both;
+  background-color: #107DB7;
+}
+
+#menu_cabecera nav#menu ul {
+  list-style: none;
+  max-width: 412px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 10px;
+}
+
+#menu_cabecera nav#menu ul li.mainitem {
+  display: inline;
+  padding: 6px 18px;
+  margin: 0 5px;
+  cursor: pointer;
+  background-color: #009DDD;
+  border-radius: 5px;
+  transition: background-color ease-in-out 0.5s;
+}
+
+#menu_cabecera nav#menu ul li.mainitem:hover {
+  background-color: #A3BF2A;
+}
+
+#menu_cabecera nav#menu ul a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#contenido {
+  position: relative;
+}
+
+#contenido .contenido-der {
+  width: 83%;
+  float: left;
+  padding: 0px 15px 0px 0px;
+}
+
+#contenido .contenido-der p {
+  font-size: 1.2em;
+}
+
+#contenido .contenido-der p strong {
+  font-weight: 600;
+}
+
+#contenido .contenido-der #imagenes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#contenido .contenido-der #imagenes .cursos img {
+  max-width: 255px;
+  width: 100%;
+  min-height: 170px;
+  transition: transform ease 1s;
+}
+#contenido .contenido-der #imagenes .cursos img:hover {
+  transform: rotate(180deg);
+}
+
+#contenido .contenido-der #imagenes .cursos p {
+  text-align: center;
+  margin-top: 0px;
+}
+
+#contenido aside#archivos_side {
+  width: 15%;
+  float: right;
+}
+
+#contenido aside#archivos_side h3 {
+  font-size: 1.3em;
+  font-family: "Roboto", sans-serif;
+  color: #107DB7;
+}
+
+#contenido aside#archivos_side ul {
+  list-style: circle;
+  margin: 0px;
+  padding: 0px;
+  margin-left: 15px;
+}
+
+#contenido aside#archivos_side ul li {
+  padding: 0 0 10px 0;
+}
+
+#contenido aside#archivos_side ul li a {
+  color: #107DB7;
+  text-decoration: none;
+}
+
+#compartir {
+  clear: both;
+}
+
+#compartir ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+#compartir ul li {
+  display: inline;
+  padding: 0 5px;
+}
+
+#compartir ul li img {
+  width: 24px;
+}
+
+#wahtsapp {
+  position: fixed;
+  bottom: 46px;
+  right: 20px;
+}
+
+#wahtsapp a {
+  color: #03c100;
+}
+
+#wahtsapp a:visited {
+  color: #03c100;
+}
+
+#wahtsapp a i {
+  font-size: 5em;
+}
+
+footer {
+  border-top: 4px solid #107DB7;
+  margin-top: 20px;
+}
+
+footer #contacto-info, footer #inforrss, footer .mapa {
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+
+footer #contacto-info {
+  width: 33%;
+  float: left;
+}
+
+footer #contacto-info ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer #contacto-info ul li {
+  padding: 10px 0px;
+}
+
+footer #contacto-info ul li i {
+  font-size: 1.5em;
+  padding-right: 15px;
+}
+
+footer #inforrss {
+  width: 20%;
+  float: left;
+}
+
+footer #inforrss ul {
+  list-style: none;
+  margin: 0px;
+  padding: 0px;
+}
+
+footer #inforrss ul li {
+  display: inline;
+  padding: 10px 0px;
+}
+
+footer #inforrss ul li i {
+  font-size: 2em;
+  padding-right: 15px;
+}
+
+footer #inforrss ul li.whatsapp a {
+  color: #03c100;
+}
+
+footer #inforrss ul li.whatsapp a:visited {
+  color: #03c100;
+}
+
+footer #inforrss ul li.facebook a {
+  color: #1f4d9b;
+}
+
+footer #inforrss ul li.facebook a:visited {
+  color: #1f4d9b;
+}
+
+footer #inforrss ul li.twitter a {
+  color: #1d9bf0;
+}
+
+footer #inforrss ul li.twitter a:visited {
+  color: #1d9bf0;
+}
+
+footer .mapa {
+  width: 47%;
+  float: left;
+}
+
+footer .mapa iframe {
+  width: 100%;
+}
+
+footer #politica_cookies {
+  clear: both;
+  text-align: center;
+  background-color: #107DB7;
+  margin-top: 20px;
+  color: #fff;
+}
+
+footer #politica_cookies p {
+  padding: 10px 0px;
+  margin: 0px;
+}
+
+footer #politica_cookies a {
+  color: #fff;
+}
+
+#contenido-servicios {
+  padding-top: 170px;
+}
+
+#contenido-servicios caption {
+  font-size: 20px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+#contenido-servicios table {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+#contenido-servicios table tr:first-child {
+  text-align: left;
+  color: #fff;
+  background-color: #107DB7 !important;
+}
+
+#contenido-servicios table th, #contenido-servicios table td {
+  text-align: center;
+  padding: 8px;
+}
+
+#contenido-servicios table tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+#contenido-servicios table tr:nth-child(odd) {
+  background-color: #A3BF2A;
+  color: #fff;
+}
+
+#contenido-servicios h3 {
+  text-align: center;
+}
+
+#formulario {
+  padding-top: 170px;
+}
+
+#formulario form {
+  max-width: 700px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+#formulario form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: 500;
+}
+
+#formulario form input[type=text], #formulario form input[type=number], #formulario form input[type=email], #formulario form input[type=tel], #formulario form textarea {
+  width: 100%;
+  padding: 5px;
+  margin-top: 3px;
+  border: none;
+  border: 2px solid #107DB7;
+  border-radius: 5px;
+  font-size: 1.05em;
+}
+
+#formulario form button {
+  width: 250px;
+  border: none;
+  background-color: #107DB7;
+  color: #fff;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 1.2em;
+  letter-spacing: 3px;
+  font-weight: 600;
+  font-family: "Roboto", sans-serif;
+}
+
+img:not([alt]) {
+  border: 3px solid red;
+}
+
+a[href*=".pdf"]:after {
+  content: url(../images/pdf_document.png);
+}
+
+.container-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 140px;
+  align-items: center;
+}
+
+.container-flex .item {
+  width: 32%;
+  padding-bottom: 32%;
+  margin-bottom: 2%; 
+  position: relative;
+}
+
+.container-flex .item:nth-child(odd) {
+background-color: #009DDD;
+}
+.container-flex .item:nth-child(even) {
+  background-color: #03c100;
+  }
